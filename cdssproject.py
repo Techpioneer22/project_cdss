@@ -18,7 +18,8 @@ import matplotlib.pyplot as plt
 # %matplotlib inline
 import numpy as np
 import warnings
-!conda install -c anaconda seaborn -y
+import pip
+pip.main(['install','seaborn'])
 warnings.filterwarnings('ignore')
 
 df = pd.read_csv('/content/drive/MyDrive/data/Training.csv')
