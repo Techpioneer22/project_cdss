@@ -13,13 +13,14 @@ Original file is located at
 # Commented out IPython magic to ensure Python compatibility.
 #imported important libraries
 import pandas as pd
+import pip
 import seaborn as sns
 import matplotlib.pyplot as plt
 # %matplotlib inline
 import numpy as np
 import warnings
-import pip
 pip.main(['install','seaborn'])
+
 warnings.filterwarnings('ignore')
 
 df = pd.read_csv('/content/drive/MyDrive/data/Training.csv')
